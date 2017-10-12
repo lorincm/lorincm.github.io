@@ -1,0 +1,45 @@
+﻿<html>
+<head>
+	<title>buborék</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="icon" href="bee.png" type="image/png" />
+</head>
+<body>
+<pre>
+//6-os input
+
+#include &lt;iostream>
+#include &lt;Windows.h>
+
+using namespace std;
+
+int main(){
+  int valtozas;
+  int input;
+  int tmp;
+  int arry[6];
+  for(int i=0;i<6;i++){
+       	cin>>input;
+       	arry[i]=input;
+  }
+  do{
+       	valtozas=0;
+       	for(int i=0;i<5;i++){
+          	if(arry[i]>arry[i+1]){
+               	tmp=arry[i];
+               	arry[i]=arry[i+1];
+               	arry[i+1]=tmp;
+               	valtozas=1;
+        }
+  }
+  }while(valtozas!=0);
+  for(int i=0; i<6; i++){
+        cout<&lt;arry[i]<&lt;endl;
+  }
+  return 0;
+}
+	
+</pre>
+<div class="footer"><p><a href="./algoritmusok.html">vissza</a></p></div>
+</body>
+</html>
