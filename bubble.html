@@ -6,10 +6,10 @@
 </head>
 <body>
 <pre>
-//6-os input
 
 #include &lt;iostream>
 #include &lt;Windows.h>
+#include &lt;vector>
 
 using namespace std;
 
@@ -17,24 +17,26 @@ int main(){
   int valtozas;
   int input;
   int tmp;
-  int arry[6];
-  for(int i=0;i<6;i++){
+  vector &lt;int> v;
+  for(;;){
        	cin>>input;
-       	arry[i]=input;
+       	if(input==0) break;
+       	v.push_back(input);
   }
+  
   do{
        	valtozas=0;
-       	for(int i=0;i<5;i++){
-          	if(arry[i]>arry[i+1]){
-               	tmp=arry[i];
-               	arry[i]=arry[i+1];
-               	arry[i+1]=tmp;
+       	for(int i=0;i<v.size()-1;i++){
+          	if(v[i]>v[i+1]){
+               	tmp=v[i];
+               	v[i]=v[i+1];
+               	v[i+1]=tmp;
                	valtozas=1;
         }
   }
   }while(valtozas!=0);
-  for(int i=0; i<6; i++){
-        cout<&lt;arry[i]<&lt;endl;
+  for(int i=0; i<v.size(); i++){
+        cout<&lt;arry[i]<&lt;" ";
   }
   return 0;
 }
