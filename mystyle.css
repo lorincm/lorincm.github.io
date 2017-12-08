@@ -68,3 +68,12 @@ a:active {
    top:10;
    right:10;
 }
+
+p {
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    	font-size: 29px;
+    	font-style: normal;
+    	font-variant: small-caps;
+    	font-weight: 100;
+    	line-height: 42.9px;
+}
