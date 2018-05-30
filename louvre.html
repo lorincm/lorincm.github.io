@@ -16,12 +16,8 @@
 </style>
 </head>
 
-<body bgcolor="black">
+<body bgcolor="black" onload="enableAutoplay()">
 
-<!-- <audio autoplay> 
-    <source src="lacrimosa.mp3"  type="audio/mp3">
-</audio>
--->
 <center>
 <br>
 <pre class="ascii">
@@ -39,10 +35,19 @@ ________\///////////////_______\/////__________\/////////___________\///________
 <br>
 <br>
 <br>
-<video width="350" height="350" autoplay loop>
+<video id="vids" width="350" height="350" loop>
 	<source src="vid.mp4" type="video/mp4">
 </video>
-
 </center>
+
+<script>  <!-- we have to do it like this since opera have stage 5 gay (disables autoplay) -->
+function enableAutoplay() { 
+	var vid = document.getElementById("vids");
+    vid.autoplay = true;
+    vid.load();
+}
+</script>
+
+
 </body>
 </html>
