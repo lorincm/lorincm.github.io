@@ -3,17 +3,17 @@
 		width: 80%;
 		border: 1px solid black;
 		border-collapse: collapse;
-		font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+		font-family: "Segoe UI";
 		height: 20px;
 		word-wrap: break-word;
 }
 
 ul li{
-		font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+		font-family: "Segoe UI";
 }
 
 h1 {
-		font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+		font-family: "Segoe UI";
 		font-size: 49px;
 		font-style: normal;
 		font-variant: small-caps;
@@ -32,7 +32,7 @@ a:link {
     	color: black; 
     	background-color: transparent; 
     	text-decoration: underline;
-    	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    	font-family: "Segoe UI";
     	font-size: 25px;
     	font-style: normal;
     	font-variant: small-caps;
@@ -44,7 +44,7 @@ a:visited {
 		color: black;
 		background-color: transparent;
 		text-decoration: underline;
-		font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+		font-family: "Segoe UI";
     	font-size: 25px;
     	font-style: normal;
     	font-variant: small-caps;
@@ -56,11 +56,11 @@ a:hover {
     	color: black;
     	background-color: transparent;
     	text-decoration: underline;
-		font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+		font-family: "Segoe UI";
     	font-size: 25px;
     	font-style: normal;
     	font-variant: small-caps;
-    	font-weight: 100;
+    	font-weight: bold;
     	line-height: 25px;
 }
 
@@ -68,7 +68,7 @@ a:active {
     	color: black;
     	background-color: transparent;
     	text-decoration: underline;
-		font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+		font-family: "Segoe UI";
     	font-size: 25px;
     	font-style: normal;
     	font-variant: small-caps;
@@ -83,7 +83,7 @@ a:active {
 }
 
 p {
-		font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+		font-family: "Segoe UI";
     	font-size: 29px;
     	font-style: normal;
     	font-variant: small-caps;
