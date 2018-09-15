@@ -1,14 +1,29 @@
-﻿ul li{
+﻿table, th, td {
+	table-layout: fixed;
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	overflow:hidden;
+	height: 20px;
+	word-wrap: break-word;
+}
+
+table {
+	
+}
+
+ul li{
 	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 }
 h1 {
-	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
-    	font-size: 49px;
-    	font-style: normal;
-    	font-variant: small-caps;
-    	font-weight: 100;
+		font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+		font-size: 49px;
+		font-style: normal;
+		font-variant: small-caps;
+		font-weight: 100;
     	line-height: 42.9px;
-}
+
 .footer{ 
        	position: fixed;     
         text-align: center;    
@@ -92,3 +107,4 @@ p {
     min-width: 100%; 
     min-height: 100%;
 }
+
