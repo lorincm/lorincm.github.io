@@ -1,4 +1,8 @@
-﻿table, th, td 
+﻿html {
+  scroll-behavior: smooth;
+}
+
+table, th, td 
 {
 	table-layout: fixed;
 	width: 95%;
@@ -17,11 +21,14 @@ ul li
 
 h1 
 {
+	padding: 0; 
+	margin: 0; 
 	font-family: "Segoe UI";
 	font-size: 49px;
 	font-style: normal;
 	font-variant: small-caps;
-	font-weight: 100;
+	font-weight: 70;
+	line-height: 1;
 }
 
 .footer
@@ -74,13 +81,6 @@ a:active
     font-style: normal;
     font-variant: small-caps;
     font-weight: normal;
-}
-
-.topcorner
-{
-	position:absolute;
-	top:10;
-	right:10;
 }
 
 p 
