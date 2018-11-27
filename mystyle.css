@@ -1,5 +1,5 @@
 ﻿html {
-  scroll-behavior: smooth;
+  	scroll-behavior: smooth;
 }
 
 table, th, td 
@@ -33,21 +33,21 @@ h1
 
 .footer
 { 
-    position: fixed;     
-    text-align: center;    
-    bottom: 2px; 
-    width: 100%;
+    	position: fixed;     
+    	text-align: center;    
+    	bottom: 2px; 
+    	width: 100%;
 }
 
 a:link 
 {
-    color: black; 
-    background-color: transparent; 
-    text-decoration: underline;
-    font-family: Optima, Segoe, "Segoe UI";
-    font-style: normal;
-    font-variant: small-caps;
-    font-weight: normal; 
+    	color: black; 
+   	background-color: transparent; 
+    	text-decoration: underline;
+    	font-family: Optima, Segoe, "Segoe UI";
+    	font-style: normal;
+    	font-variant: small-caps;
+    	font-weight: normal; 
 }
 
 a:visited 
@@ -66,7 +66,7 @@ a:hover
     color: black;
     background-color: transparent;
     text-decoration: underline;
-	font-family: "Segoe UI";
+    font-family: "Segoe UI";
     font-style: bold;
     font-variant: small-caps;
     font-weight: bold;	
@@ -77,7 +77,7 @@ a:active
     color: black;
     background-color: transparent;
     text-decoration: underline;
-	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
     font-style: normal;
     font-variant: small-caps;
     font-weight: normal;
@@ -85,7 +85,7 @@ a:active
 
 p 
 {
-	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
     font-size: 29px;
     font-style: normal;
     font-variant: small-caps;
