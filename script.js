@@ -20,30 +20,30 @@ async function translate_loop()
 		var x;
 		for (i = 0; i < 5; i++) 
 		{ 
-		  switch(i) 
-		  {
-		  case 0:
-		    	fade_in();
-			document.getElementById("h1").innerHTML = "üdvözöllek!";
-			break;
-		  case 1:
-			fade_in();
-		    	document.getElementById("h1").innerHTML = "hi there!";
-			break;
-		  case 2:
-			fade_in();
-			document.getElementById("h1").innerHTML = "guten tag!";
-			break;
-		  case 3:
-		    	fade_in();
-			document.getElementById("h1").innerHTML = "hola!";
-			break;
-		  case 4:
-		    	fade_in();
-			document.getElementById("h1").innerHTML = "こんにちは!";
-			break;
-		  }
-		  await sleep(2000);
+			switch(i) 
+			{
+				case 0:
+					fade_in();
+					document.getElementById("h1").innerHTML = "üdvözöllek!";
+					break;
+				case 1:
+					fade_in();
+					document.getElementById("h1").innerHTML = "hi there!";
+					break;
+				case 2:
+					fade_in();
+					document.getElementById("h1").innerHTML = "guten tag!";
+					break;
+				case 3:
+					fade_in();
+					document.getElementById("h1").innerHTML = "hola!";
+					break;
+				case 4:
+					fade_in();
+					document.getElementById("h1").innerHTML = "こんにちは!";
+					break;
+			  }
+			  await sleep(2000);
 		}
 	}
 }
