@@ -17,7 +17,6 @@ async function translate_loop()
 	for (;;) 
 	{
 		var i;
-		var x;
 		for (i = 0; i < 5; i++) 
 		{ 
 			switch(i) 
