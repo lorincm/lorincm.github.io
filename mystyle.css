@@ -14,6 +14,17 @@ table, th, td
 	text-align: center;
 }
 
+table#t01, table#t01.th, table#t01.td{
+	width: auto;
+	border: 0px;
+	background-color: transparent;
+	font-size: 130%;
+	padding: 10px;
+}
+
+table#t01.th:hover{
+	border: 1px solid black;
+}
 
 .button1 {
 	width: auto;
