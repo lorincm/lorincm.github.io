@@ -14,6 +14,34 @@ table, th, td
 	text-align: center;
 }
 
+table#t01, th, td{
+	width: auto;
+	border: 0px;
+	background-color: transparent;
+	font-size: 130%;
+	padding: 10px;
+}
+
+th:hover{
+	border: 1px solid black;
+}
+
+.button1 {
+	width: auto;
+	background-color: whitesmoke;
+	border: 5px solid black;
+	color: solid black;
+	padding: 15px 25px;
+	font-family: "Segoe UI";
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+ }
+
+ .button1:hover {
+	background-color: gray;
+ }
+
 ul li
 {
 	font-family: "Segoe UI";
