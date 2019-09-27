@@ -14,7 +14,7 @@ table, th, td
 	text-align: center;
 }
 
-table#t01, th, td{
+table#t01, table#t01.th, table#t01.td{
 	width: auto;
 	border: 0px;
 	background-color: transparent;
@@ -22,7 +22,7 @@ table#t01, th, td{
 	padding: 10px;
 }
 
-th:hover{
+table#t01.th:hover{
 	border: 1px solid black;
 }
 
