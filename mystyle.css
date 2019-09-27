@@ -2,19 +2,7 @@
   	scroll-behavior: smooth;
 }
 
-table, th, td 
-{
-	table-layout: fixed;
-	width: 95%;
-	border: 1px solid black;
-	border-collapse: collapse;
-	font-family: "Segoe UI";
-	height: 20px;
-	word-wrap: break-word;
-	text-align: center;
-}
-
-table#t01, table#t01.th, table#t01.td{
+table, th, td{
 	width: auto;
 	border: 0px;
 	background-color: transparent;
@@ -22,7 +10,7 @@ table#t01, table#t01.th, table#t01.td{
 	padding: 10px;
 }
 
-table#t01.th:hover{
+th:hover, td:hover{
 	border: 1px solid black;
 }
 
