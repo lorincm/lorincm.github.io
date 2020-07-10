@@ -10,9 +10,7 @@ table, th, td{
 	padding: 10px;
 }
 
-th:hover, td:hover{
-	border: 1px solid black;
-}
+
 
 .button1 {
 	width: auto;

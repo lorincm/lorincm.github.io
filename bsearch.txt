@@ -4,8 +4,6 @@
 using std::cout;
 using std::endl;
 
-//rekurzív binary search algoritmus
-
 int binary_search(int A[], int target, int left, int right) 
 {
 	if (left > right) return -1;
