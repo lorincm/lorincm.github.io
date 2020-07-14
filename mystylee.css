@@ -2,6 +2,10 @@
   	scroll-behavior: smooth;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 table, th, td{
 	width: auto;
 	border: 5px solid black;
