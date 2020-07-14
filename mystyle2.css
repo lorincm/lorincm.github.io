@@ -4,9 +4,10 @@
 
 table, th, td{
 	width: auto;
-	border: 2px;
+	border: 5px solid black;
+    font-family: "Segoe UI";
 	background-color: transparent;
-	font-size: 130%;
+	font-size: 100%;
 	padding: 10px;
 }
 
