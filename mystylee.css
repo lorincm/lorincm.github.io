@@ -2,7 +2,7 @@
   	scroll-behavior: smooth;
 }
 
-table, tr, th, td{
+table, th, td{
 	width: auto;
 	border: 5px solid black;
     font-family: "Segoe UI";
