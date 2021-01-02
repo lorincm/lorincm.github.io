@@ -1,0 +1,67 @@
+<html>
+<head>
+	<title>finiens</title>
+	<link rel="icon" href="bee.png" type="image/png" />
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<style>
+		html {
+		  scroll-behavior: smooth;
+		}
+		td, tr{
+			border: 0px;
+			/* padding: 10px; */
+		}
+		table {
+			border: 0px;
+		}
+		pre { 
+		  font-family: monospace;
+		}
+	</style>	
+</head>
+<body>
+	<br></br>
+	<center>
+		<h1>finiens</h1>
+		<table>
+			<tr>
+				<td style="horiz-align:right"><video width="320" height="600" autoplay playsinline muted loop> <source src="gameplay.mp4" type="video/mp4"></video></td>
+				<td style="width:100%"> <p>What's finiens?</p> <p>Finiens is a minimalist geolocator game where you must point your phone (literally) where the given settlement is compared to you</p> <p>play it alone, or with friends, it's a good time-killer and party game</p></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><p> </p></td>
+				<td><p> </p></td>
+			</tr>
+			<tr>
+				<td></th>				
+			</tr>
+		</table>
+		<h1>check out these links<h1>
+		<p>Check out my <a href="https://github.com/lorincm/finiens">github repository</a> for finiens from wher you can download the Android apk and the main source files</p>
+		<h1>how does it work?<h1>
+		<p>the game needs acces to your phones sensors. it uses your GPS and Accelerometer and calculate your device's heading</p>
+		<p>the following code snippet defines the function that calculates the bearing angle between your position and the game-given settlement</p>
+			
+	</center>
+	
+	<pre>
+		double bearing(double lat1, double long1, double lat2, double long2) //1: device location 2: town
+		{ 
+			double dLon = (long2 - long1);
+			double y = sin(dLon) * cos(lat2);
+			double x = cos(lat1) * sin(lat2) - sin(lat1)*cos(lat2) * cos(dLon);
+
+			double heading = atan2(y, x);
+		  
+			heading = heading * 180 / d_pi; 
+			heading = (heading + 360) % 360;
+			return heading;
+		}
+	</pre>
+	<center><p>for more information check out the <a href="https://github.com/lorincm/finiens/tree/main/dart%20files%20only">source files</a></p></center>
+</body>
+</html>
